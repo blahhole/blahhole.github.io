@@ -350,6 +350,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+/* .about img {
+  width: 250px;
+  margin: auto;
+  display: block;
+} */
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -381,7 +386,85 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+.about .education-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
 
+.about .education-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+.about .education-item h5 {
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.about .education-item ul {
+  padding-left: 20px;
+}
+
+.about .education-item ul li {
+  padding-bottom: 10px;
+}
+
+.about .education-item:last-child {
+  padding-bottom: 0;
+}
+.about .education-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+.about .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.about .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+
+.about .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.about .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+
+.about .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -434,7 +517,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -471,7 +554,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Resume
+# Experiences
 --------------------------------------------------------------*/
 .experiences .experiences-title {
   font-size: 26px;
