@@ -393,6 +393,12 @@ section {
   position: relative;
 }
 
+.about .education h3{
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
 .about .education-item h4 {
     line-height: 18px;
     font-size: 18px;
@@ -431,6 +437,11 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+.about .skills h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
 }
 .about .progress {
   height: 60px;
