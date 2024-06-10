@@ -350,11 +350,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-/* .about img {
-  width: 250px;
+.about img {
   margin: auto;
   display: block;
-} */
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
