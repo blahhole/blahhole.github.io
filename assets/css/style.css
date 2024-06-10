@@ -404,7 +404,7 @@ section {
     font-size: 18px;
     font-weight: 600;
     /* text-transform: uppercase; */
-    font-family: "Poppins", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #050d18;
     margin-bottom: 10px;
 }
@@ -586,8 +586,8 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  /* text-transform: uppercase; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
