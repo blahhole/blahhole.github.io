@@ -350,6 +350,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about{
+  background-color:whitesmoke;
+}
 .about img {
   margin: auto;
   display: block;
