@@ -119,6 +119,52 @@
     }
   });
 
+
+   /**
+   * Icons mapping
+   */
+   const icons = {
+    'DevOps': ['assets/img/kubernetes.svg', 'assets/img/gitlab.png', 'assets/img/docker.svg', 'assets/img/ansible.svg'],
+    'Cloud': ['assets/img/aws.svg', 'assets/img/do.svg'],
+    'System': 'assets/img/linux.svg'
+  };
+
+  /**
+   * Change icon function
+   */
+  // const changeIcon = (word) => {
+  //   const iconElement = document.getElementById('typed-icon');
+  //   const iconPath = icons[word];
+  //   if (iconPath) {
+  //     iconElement.innerHTML = `<img src="${iconPath}" alt="${word} Icon">`;
+  //     const img = iconElement.querySelector('img');
+  //     setTimeout(() => {
+  //       img.classList.add('visible');
+  //     }, 1); // Slight delay to trigger the transition
+  //   } else {
+  //     iconElement.innerHTML = '';
+  //   }
+  // };
+  const changeIcon = (word) => {
+    const iconElement = document.getElementById('typed-icon');
+    const iconPaths = icons[word];
+    if (iconPaths) {
+      let imagesHtml;
+      if (Array.isArray(iconPaths)) {
+        imagesHtml = iconPaths.map(path => `<img src="${path}" alt="${word} Icon">`).join('');
+      } else {
+        imagesHtml = `<img src="${iconPaths}" alt="${word} Icon">`;
+      }
+      iconElement.innerHTML = imagesHtml;
+      const imgs = iconElement.querySelectorAll('img');
+      setTimeout(() => {
+        imgs.forEach(img => img.classList.add('visible'));
+      }, 1); // Slight delay to trigger the transition
+    } else {
+      iconElement.innerHTML = '';
+    }
+  };
+
   /**
    * Hero type effect
    */
@@ -131,7 +177,10 @@
       loop: true,
       typeSpeed: 100,
       backSpeed: 50,
-      backDelay: 2000
+      backDelay: 2000,
+      preStringTyped: (arrayPos, self) => {
+        changeIcon(self.strings[arrayPos]);
+      }
     });
   }
 

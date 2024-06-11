@@ -274,7 +274,7 @@ h6 {
 #hero p {
   color: #fff;
   color: green;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -287,6 +287,23 @@ h6 {
   color: #1eff00;
 }
 
+/* for icon container*/
+#typed-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+#typed-icon img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+  filter: drop-shadow(0px 0px 1px rgb(255, 255, 255)); /* Initial shadow */
+  animation: shine 2s infinite alternate; /* Shining effect */
+}
+#typed-icon img.visible {
+  opacity: 1;
+}
 
 @media (min-width: 1024px) {
   #hero {
