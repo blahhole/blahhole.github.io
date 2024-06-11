@@ -124,9 +124,9 @@
    * Icons mapping
    */
    const icons = {
-    'DevOps': ['assets/img/kubernetes.svg', 'assets/img/gitlab.png', 'assets/img/docker.svg', 'assets/img/ansible.svg'],
+    'DevOps': ['assets/img/kubernetes.svg', 'assets/img/gitlab.png', 'assets/img/docker.svg', 'assets/img/helm.svg', 'assets/img/jenkins.svg', 'assets/img/terraform.svg' ],
     'Cloud': ['assets/img/aws.svg', 'assets/img/do.svg'],
-    'System': ['assets/img/linux.svg', 'assets/img/bash.svg', 'assets/img/nginx.svg']
+    'System': ['assets/img/linux.svg', 'assets/img/bash.svg', 'assets/img/nginx.svg', 'assets/img/ansible.svg', 'assets/img/database.svg']
   };
 
   /**
