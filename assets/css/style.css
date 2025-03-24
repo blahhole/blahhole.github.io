@@ -442,15 +442,15 @@ section {
     margin-bottom: 10px;
 }
 .about .education-item h5 {
-  font-size: 16px;
+  font-size: 14px;
   background: green;
+  color: white;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
 }
 .about .education-item p {
-  color: white  ;
+  color: white;
 }
 .about .education-item ul {
   padding-left: 20px;
@@ -546,18 +546,21 @@ section {
 }
 
 .experiences .experiences-item h5 {
-  font-size: 16px;
+  font-size: 14px;
   background: green;
+  color: white;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
 }
 .experiences .experiences-item p {
   color: white;
+  margin-bottom: 0%;
 }
-.experiences .experiences-item ul {
+.experiences .experiences-item ul { 
   padding-left: 20px;
+  color: white;
+  text-align: justify;
 }
 
 .experiences .experiences-item ul li {
@@ -584,13 +587,15 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
+  background-color: #090327;
   padding-bottom: 130px;
   min-height: 100vh; /* Full page height */
+  color: white;
 }
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #0e2442;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -614,15 +619,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: white;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
-}
+  color: white
 
 .contact .info .email p {
   padding-top: 5px;
