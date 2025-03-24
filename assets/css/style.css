@@ -334,7 +334,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #000000;
 }
 
 .section-title {
@@ -347,7 +347,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: white;
 }
 
 .section-title h2::after {
@@ -368,19 +368,27 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about{
-  background-color:whitesmoke;
+.about {
+  background-color: #090327;
 }
 .about img {
   margin: auto;
   display: block;
 }
+.about h2 {
+  color: white;
+}
+.about p {
+  color: white;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: white;
 }
-
+.about .content h5 {
+  color: white;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -394,29 +402,34 @@ section {
 
 .about .content ul strong {
   margin-right: 10px;
+  color: white;
 }
-
+.about .content ul span {
+  margin-right: 10px;
+  color: white;
+}
 .about .content ul i {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
   margin-right: 5px;
-  color: #149ddd;
+  color: green;
   line-height: 0;
 }
 
 .about .content p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
 .about .education-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid green;
   position: relative;
 }
 
 .about .education h3{
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: white;
 }
 
 .about .education-item h4 {
@@ -425,16 +438,19 @@ section {
     font-weight: 600;
     /* text-transform: uppercase; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #050d18;
+    color: white;
     margin-bottom: 10px;
 }
 .about .education-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: green;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+.about .education-item p {
+  color: white  ;
 }
 .about .education-item ul {
   padding-left: 20px;
@@ -455,13 +471,13 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  background: #090327;
+  border: 2px solid green;
 }
 .about .skills h3 {
     font-weight: 700;
     font-size: 26px;
-    color: #173b6c;
+    color: white;
 }
 .about .progress {
   height: 60px;
@@ -477,7 +493,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: white;
 }
 
 .about .progress .skill .val {
@@ -494,24 +510,28 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: green;
 }
 
 /*--------------------------------------------------------------
 # Experiences
 --------------------------------------------------------------*/
+.experiences {
+  background-color: #090327;
+  min-height: 100vh; /* Full page height */
+}
 .experiences .experiences-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: white;
 }
 
 .experiences .experiences-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid green;
   position: relative;
 }
 
@@ -521,19 +541,21 @@ section {
   font-weight: 600;
   /* text-transform: uppercase; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #050d18;
+  color: white;
   margin-bottom: 10px;
 }
 
 .experiences .experiences-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: green;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
 }
-
+.experiences .experiences-item p {
+  color: white;
+}
 .experiences .experiences-item ul {
   padding-left: 20px;
 }
@@ -554,8 +576,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  background: #090327;
+  border: 2px solid green;
 }
 
 /*--------------------------------------------------------------
@@ -563,6 +585,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  min-height: 100vh; /* Full page height */
 }
 
 .contact .info {
