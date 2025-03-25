@@ -338,7 +338,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .section-title h2 {
@@ -489,7 +489,6 @@ section {
 .about .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -533,6 +532,11 @@ section {
   margin-top: -2px;
   border-left: 2px solid green;
   position: relative;
+}
+
+.experiences .experiences-item p a {
+  text-decoration: none;
+  color: inherit; /* Keeps the same text color */
 }
 
 .experiences .experiences-item h4 {
@@ -815,18 +819,31 @@ section {
     display: inline-block;
   }
   .about .row {
-    padding: 20px;
+    padding: 10px;
+    font-size: 14px;
   }
   .about .img-fluid{
-    width: 80%;  /* Responsive width */
+    padding: 20px;  /* Responsive width */
     height: auto;
   }
-  .skills .progress {
-    padding: 20px;
+  .about .education-item h4 {
+    font-size: 14px;
+  }
+  .about .education-item p {
+    font-size: 14px;
+  }
+
+  .skills .progress .skill {
+    font-size: smaller;
   }
   .experiences .experiences-item ul {
     font-size: 12px;
     padding: 20px;
+  }
+  .contact .row {
+    padding: 20px;
+    font-size: medium;
+
   }
 }
 
