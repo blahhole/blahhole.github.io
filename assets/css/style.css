@@ -369,7 +369,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background-color: #090327;
+  /* background-color: #090327; */
+  background-color: #000000;
 }
 .about img {
   margin: auto;
@@ -412,7 +413,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin-right: 5px;
-  color: green;
+  color: #1eff00;
   line-height: 0;
 }
 
@@ -422,7 +423,7 @@ section {
 .about .education-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid green;
+  border-left: 2px solid #1eff00;
   position: relative;
 }
 
@@ -471,8 +472,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #090327;
-  border: 2px solid green;
+  background: #000000;
+  border: 2px solid #1eff00;
 }
 .about .skills h3 {
     font-weight: 700;
@@ -516,7 +517,8 @@ section {
 # Experiences
 --------------------------------------------------------------*/
 .experiences {
-  background-color: #090327;
+  /* background-color: #090327; */
+  background-color: #000000;
   min-height: 100vh; /* Full page height */
 }
 .experiences .experiences-title {
@@ -530,7 +532,7 @@ section {
 .experiences .experiences-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid green;
+  border-left: 2px solid #1eff00;
   position: relative;
 }
 
@@ -562,13 +564,27 @@ section {
   margin-bottom: 0%;
 }
 .experiences .experiences-item ul { 
-  padding-left: 20px;
+  padding-left: 10px;
   color: white;
   text-align: justify;
 }
-
 .experiences .experiences-item ul li {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  padding-left: 20px;
   padding-bottom: 10px;
+}
+.experiences .experiences-item ul li::before {
+  content: "❯";
+  color: #1eff00;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.experiences .experiences-item ul li b {
+  color: skyblue;
 }
 
 .experiences .experiences-item:last-child {
@@ -584,14 +600,15 @@ section {
   left: -9px;
   top: 0;
   background: #090327;
-  border: 2px solid green;
+  border: 2px solid #1eff00;
 }
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background-color: #090327;
+  /* background-color: #090327; */
+  background-color: #000000;
   padding-bottom: 130px;
   min-height: 100vh; /* Full page height */
   color: white;
@@ -599,14 +616,14 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #0e2442;
+  background: black;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 2px gray; /* Neon green glow */
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: black;
   float: left;
   width: 44px;
   height: 44px;
@@ -663,8 +680,8 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
-  color: #fff;
+  background: black;
+  color: #1eff00;
 }
 
 .contact .php-email-form {
@@ -834,7 +851,7 @@ section {
   }
 
   .skills .progress .skill {
-    font-size: smaller;
+    font-size: small;
   }
   .experiences .experiences-item ul {
     font-size: 12px;
