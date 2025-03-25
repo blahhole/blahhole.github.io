@@ -627,7 +627,7 @@ section {
   margin-bottom: 20px;
   font-size: 14px;
   color: white
-
+}
 .contact .info .email p {
   padding-top: 5px;
 }
@@ -813,6 +813,20 @@ section {
 
   .breadcrumbs ol li {
     display: inline-block;
+  }
+  .about .row {
+    padding: 20px;
+  }
+  .about .img-fluid{
+    width: 80%;  /* Responsive width */
+    height: auto;
+  }
+  .skills .progress {
+    padding: 20px;
+  }
+  .experiences .experiences-item ul {
+    font-size: 12px;
+    padding: 20px;
   }
 }
 
