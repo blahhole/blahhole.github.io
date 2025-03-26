@@ -314,7 +314,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 38px;
     line-height: 36px;
   }
 
@@ -322,6 +322,13 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  #typed-icon img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
   }
 }
 
@@ -375,6 +382,9 @@ section {
 .about img {
   margin: auto;
   display: block;
+}
+.about .second-row {
+  padding-top: 40px; /* Adjust as needed */
 }
 .about h2 {
   color: white;
@@ -584,7 +594,7 @@ section {
   top: 0;
 }
 .experiences .experiences-item ul li b {
-  color: skyblue;
+  color: peru;
 }
 
 .experiences .experiences-item:last-child {
@@ -740,15 +750,33 @@ section {
     display: inline-block;
   }
   .about .row {
-    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 14px;
   }
+  .about .row .row {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
   .about .img-fluid{
-    padding: 20px;  /* Responsive width */
     height: auto;
+  }
+  .about .row h3 {
+    font-size: 20px;
+  }
+  .about .row h5 {
+    font-size: 18px;
   }
   .about .education-item h4 {
     font-size: 14px;
+  }
+  .about .education-item h5 {
+    font-size: 14px;
+    background: green;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
   }
   .about .education-item p {
     font-size: 14px;
@@ -758,8 +786,17 @@ section {
     font-size: small;
   }
   .experiences .experiences-item ul {
-    font-size: 12px;
-    padding: 20px;
+    font-size: 14px;
+    padding: 0px;
+    margin-right: 20px;
+  }
+  .experiences .experiences-item h5 {
+    font-size: 14px;
+    background: green;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
   }
   .contact .row {
     padding: 20px;
