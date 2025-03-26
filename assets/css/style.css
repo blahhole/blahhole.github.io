@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: grey;
+  background:#212431;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,8 +57,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
-  color: #fff;
+  background: #000000;
+  color: #1eff00;
 }
 
 .back-to-top.active {
@@ -217,7 +217,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: gray;
+  background-color: #212431;
   color: white;
   width: 40px;
   height: 40px;
