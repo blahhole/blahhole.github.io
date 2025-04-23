@@ -28,10 +28,11 @@ h1,
 h2,
 h3,
 h4,
-h5,
+
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -243,7 +244,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  /* background-color: #212340; */
+  background-color: #141A26;
   /* background: url("../img/hero-bg.jpg") top center; */
   background-size: cover;
 }
@@ -377,7 +379,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   /* background-color: #090327; */
-  background-color: #000000;
+  background-color: #141A26;
 }
 .about img {
   margin: auto;
@@ -430,10 +432,23 @@ section {
 .about .content p:last-child {
   margin-bottom: 0; 
 }
+
+/* .about .education-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #000000;
+  border: 2px solid #1eff00;
+} */
+ 
 .about .education-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 10px 10px;
   margin-top: -2px;
-  border-left: 2px solid #1eff00;
+  /* border-left: 2px solid #1eff00; */
   position: relative;
 }
 
@@ -455,6 +470,7 @@ section {
 .about .education-item h5 {
   font-size: 14px;
   background: green;
+  background: #212340;
   color: white;
   padding: 5px 15px;
   display: inline-block;
@@ -474,17 +490,7 @@ section {
 .about .education-item:last-child {
   padding-bottom: 0;
 }
-.about .education-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #000000;
-  border: 2px solid #1eff00;
-}
+
 .about .skills h3 {
     font-weight: 700;
     font-size: 26px;
@@ -498,11 +504,11 @@ section {
 }
 
 .about .progress .skill {
+  font-size: 14px;
   padding: 0;
   margin: 0 0 6px 0;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
   color: white;
 }
 
@@ -528,7 +534,7 @@ section {
 --------------------------------------------------------------*/
 .experiences {
   /* background-color: #090327; */
-  background-color: #000000;
+  background-color: #141A26;
   min-height: 100vh; /* Full page height */
 }
 .experiences .experiences-title {
@@ -594,7 +600,8 @@ section {
   top: 0;
 }
 .experiences .experiences-item ul li b {
-  color: peru;
+  font-weight: bolder;
+  box-shadow: ;
 }
 
 .experiences .experiences-item:last-child {
@@ -609,7 +616,7 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #090327;
+  background: #141A26;
   border: 2px solid #1eff00;
 }
 
@@ -618,7 +625,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   /* background-color: #090327; */
-  background-color: #000000;
+  background-color: #141A26;
   padding-bottom: 130px;
   min-height: 100vh; /* Full page height */
   color: white;
@@ -626,7 +633,7 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: black;
+  background: #141A26;;
   width: 100%;
   box-shadow: 0px 0px 2px gray; /* Neon green glow */
 }
@@ -690,7 +697,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: black;
+  background: #141A26;;
   color: #1eff00;
 }
 
@@ -772,7 +779,7 @@ section {
   }
   .about .education-item h5 {
     font-size: 14px;
-    background: green;
+    background: #212340;
     color: white;
     padding: 5px 15px;
     display: inline-block;
